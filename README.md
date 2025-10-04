@@ -8,7 +8,7 @@ Yamayami(ヤマヤミ/止マナイ雨ニ病ミナガラ) ported to Ren'Py.
 ### Linux / Other OS
 ```bash
 # Clone project
-git clone git://github.com/haturatu/yamayami.git
+git clone https://github.com/haturatu/yamayami.git
 
 # Get Ren'Py
 wget https://www.renpy.org/dl/8.4.1/renpy-8.4.1-sdk.tar.bz2
