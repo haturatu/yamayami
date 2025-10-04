@@ -5,17 +5,27 @@ Yamayami(ヤマヤミ/止マナイ雨ニ病ミナガラ) ported to Ren'Py.
 
 ## Getting started
 
+### Linux / Other OS
 ```bash
 # Clone project
-git clone git://github.com/mikoim/yamayami.git
+git clone git://github.com/haturatu/yamayami.git
 
-# Move yamayami to your Ren'Py project directory
-mv yamayami $YOUR_PROJECT_DIRECTORY
+# Get Ren'Py
+wget https://www.renpy.org/dl/8.4.1/renpy-8.4.1-sdk.tar.bz2
+tar -xvjf renpy-8.4.1-sdk.tar.bz2
+
+# Move game files
+mv yamayami/game renpy-8.4.1-sdk/game
+cd renpy-8.4.1-sdk
 
 # Linux / Other
-renpy.sh
+chmod +x renpy.sh
+./renpy.sh
+```
 
-# Windows
+### Windows
+あ
+```
 renpy.exe
 ```
 
