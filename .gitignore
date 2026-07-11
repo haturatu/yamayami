@@ -1,0 +1,6 @@
+# logファイルの除外
+*.txt
+# コンパイル時のファイルを除外
+*.rpyc
+game/cache
+game/saves
